@@ -1,4 +1,4 @@
-/* brown: 38341c
+no-border/* brown: 38341c
 red ab0d0d
 */
 
@@ -34,6 +34,7 @@ red ab0d0d
 
 .crossword .no-border {
     border: none;
+    background-color: black;
 }
 
 #clues {
