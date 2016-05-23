@@ -23,6 +23,8 @@ function WordElement(word, index) {
     this.index = index; // use to map this node to its word or clue
 }
 
+
+
 function Crossword(words_in, clues_in) {
     var GRID_ROWS = 50;
     var GRID_COLS = 50;
@@ -397,7 +399,8 @@ function Crossword(words_in, clues_in) {
     // I got this sorting idea from http://stackoverflow.com/questions/943113/algorithm-to-generate-a-crossword/1021800#1021800
     // seems to work well
     word_elements.sort(function(a, b) {
-        return b.word.length - a.word.length; });
+        return b.word.length - a.word.length;
+    });
     //shuffle(word_elements);
 }
 
