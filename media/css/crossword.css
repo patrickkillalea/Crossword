@@ -96,3 +96,11 @@ td.ms-word-cell {
     margin-bottom: 5px;
     margin-top: 0px;
 }
+
+input {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    border-color: transparent;
+}
