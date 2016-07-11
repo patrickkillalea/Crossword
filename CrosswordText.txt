@@ -1,17 +1,41 @@
-ALGS Automated letter generation system to create standard format letters
-BEST Full administration system for Individual Disability for the prior Provident company, and for new IDI business for the merged company
-BizTalk Biztalk is a MS BPM tool used to process messages/documents as part of the workflow process
-CAPSTONE Policy maintenance, billing and administration system for Assocation business
-CONTROLM Infrastructure Software that monitors and manages batch job submission
-ESABASE Excel Add-in for reporting Walker GL Financial Data from the 4000 and 4100 tables
-GUS A series of on-line screens and batch reports that present detailed and summarized claims, premium, and reserve information for Inforce Group Unum LTD policies
-Hyperion Tool used to access the Fidelity reporting website for HR Benefits business
-Navilink Common front end for Claim Intake, Correspondence, Workflow, Management
-OPAL Externally hosted web performance support tool
-Pearl Claims Adjudication, Payment for individual and group LTC Closed Block
-PIE Pays producer incentive compensation
-Elixer UK Policy Administration Platform which is being developed to replace UK ALIS
-WORKDAY Human Capital and Financial Management Solution
+Crossword 1
 
+ABC Account, Budget and Cost management for UNUM application
+BAS UNUM Group Claim system for the Merlin agreement platform
+BizTalk MS BPM tool used to process messages & documents
+CCP Provident claims system
+Client-Letter Colonial based letter generator
+CLA-POS Colonial Policy admin system
+EAS Set of processes that streamline the workflow for Simply Unum and Classic VB cases and Simply Unum Group cases
+GUS Inforce Group UNUM LTD system
+Hyperion System that manages UNUM investments
+LINE-26 Policy maintenance, billing and administration system for group Special Risk business
+Navilink Common front end for Claim Intake, Correspondence, Workflow and Management
+PALLM New Business and Underwriting for Individual Disability for Paul Revere
+Polaris Provident Integrated Group claims system
+PIE UNUM application that pays producer incentive compensation
+TME Maintains Rep & Broker territories and facilitates Rep assignments on new business
+Elixir UK Policy Administration Platform which is being developed to replace UK ALIS
+Walker-AP Corporate Accounts payment system
+
+Crossword 2
+
+ALGS Automated letter generation system to create standard format letters
+BEST Administration system for Individual Disability for Provident and new IDI business
+CAPSTONE Policy maintenance, billing and admin for UNUM applications
+CLA-Billing Colonial billing & payment system
+CLA-Harmony Colonial group enrollment platform
+COGNOS Enterprise wide reporting tool for end users
+ESABASE Excel Add-in for reporting Walker GL Financial Data from the 4000 and 4100 tables
+GUL System that manages feeds from external TPA’s for financial reporting
+LIFE-70 Individual Life Administration System for Provident business
+Merlin Administrative system for Group Tradition and Lifestyle products
+OPAL Externally hosted web performance support tool
+Pearl Claims Adjudication & Payment for Individual and group LTC Closed Block
+PRISM Paul Revere Claims payment for LIFE & ADD policies
+Reinsurance Excess Risk Reinsurance policy and claim administration system
+UK-CMS Claims Management System is used by the UUK Claims teams to manage claims
+UAS A series of online screens that present detailed and summarized claims data in a report like format for Inforce Group Unum LTD policies
+WORKDAY Human Capital and Financial Management Solution
 
 crosswordlabs.com

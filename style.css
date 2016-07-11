@@ -1,0 +1,65 @@
+pre {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    font-size: 24px;
+}
+
+textarea {
+    min-height: 300px;
+}
+
+#card {
+    background-color: #326394;
+    width: 350px;
+    height: 525px;
+    border-radius: 20px;
+    border: solid 4px white;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.card-title {
+    margin-top: 10px;
+    border-bottom: 2px solid white;
+    width: 100%;
+}
+
+.card-content {
+    margin: 10px;
+    border: 4px solid white;
+    height: 95%;
+    border-radius: 20px;
+    position: relative;
+}
+
+.card-shadow {
+    box-shadow: 4px 4px 2px #1a1a1a;
+}
+
+.outter-heading {
+    color: white;
+    width: 200px;
+}
+
+.card-footer {
+    position: absolute;
+    bottom: 0;
+    border-top: 2px solid white;
+    width: 100%;
+}
+
+.text-color {
+    color: white;
+}
+
+.standard-background {
+    background: rgba(105, 105, 105, 0.6);
+}
+
+.main-background {
+    background: url('photo-1444426724550-c7bfccd051ee.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
