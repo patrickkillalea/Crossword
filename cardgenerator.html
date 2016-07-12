@@ -2,96 +2,94 @@
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="style.css">
 <html>
-
-<body style="background-color: #00A7D4">
-<nav class="navbar navbar-default" style="background-color: #F8A346; color: black;">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+    <body style="background-color: #00A7D4">
+        <nav class="navbar navbar-default" style="background-color: #F8A346; color: black;">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="crossword1.html">Learning Made Fun!</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="crossword1.html">Crossword 1</a></li>
-                    <li><a href="crossword2.html">Crossword 2</a></li>
-                    <li><a href="goasktheservicedesk.html">Go Ask</a></li>
-                    <li class="active"><a href="cardgenerator.html">Card Generator</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="main-background">
-        <div class="container">
-            <h2 align="center" class="text-color standard-background">Create Card</h2>
-            <hr>
-            <div ng-app="" align="center">
-                <div class="col-md-2 col-sm-12 col-xs-12" style="background: rgba(105, 105, 105, 0.6);">
-                    <div class="text-color"> Card Data</div>
-                    <form style="margin-top:10px;">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Title" data-ng-model="title" maxlength="26"></input>
-                        </div>
-                        <div class="form-group">
-                            <textarea type="text" class="form-control" placeholder="Content" data-ng-model="content" maxlength="200"></textarea>
-                        </div>
-                    </form>
-                    <button type="button" class="btn btn-success" onclick="cardGen()">Download Front</button>
-                    <a href="CardBack.png" download="CardBack.png">
-                        <button type="button" class="btn btn-primary">Download Back</button>
-                    </a>
+                    </button>
+                    <a class="navbar-brand" href="crossword1.html">Learning Made Fun!</a>
                 </div>
-                <div class="col-md-5 col-sm-12 col-xs-12">
-                    <div align="center" class="outter-heading standard-background">Card Front</div>
-                    <div id="cardDiv">
-                        <div id="card" class="card-shadow">
-                            <div class="card-content">
-                                <div class="card-title">
-                                    <p align="center">GO ASK THE SERVICE DESK!</p>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="crossword1.html">Crossword 1</a></li>
+                        <li><a href="crossword2.html">Crossword 2</a></li>
+                        <li><a href="goasktheservicedesk.html">Go Ask</a></li>
+                        <li class="active"><a href="cardgenerator.html">Card Generator</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="main-background">
+            <div class="container">
+                <h2 align="center" class="text-color standard-background">Create Card</h2>
+                <hr>
+                <div ng-app="" align="center">
+                    <div class="col-md-2 col-sm-12 col-xs-12" style="background: rgba(105, 105, 105, 0.6);">
+                        <div class="text-color"> Card Data</div>
+                        <form style="margin-top:10px;">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Title" data-ng-model="title" maxlength="26"></input>
+                            </div>
+                            <div class="form-group">
+                                <textarea type="text" class="form-control" placeholder="Content" data-ng-model="content" maxlength="200"></textarea>
+                            </div>
+                        </form>
+                        <button type="button" class="btn btn-success" onclick="cardGen()">Download Front</button>
+                        <a href="CardBack.png" download="CardBack.png">
+                            <button type="button" class="btn btn-primary">Download Back</button>
+                        </a>
+                    </div>
+                    <div class="col-md-5 col-sm-12 col-xs-12">
+                        <div align="center" class="outter-heading standard-background">Card Front</div>
+                        <div id="cardDiv">
+                            <div id="card" class="card-shadow">
+                                <div class="card-content">
+                                    <div class="card-title">
+                                        <p align="center">GO ASK THE SERVICE DESK!</p>
+                                    </div>
+                                    <div class="card-title">
+                                        <p align="center">{{title | uppercase}}</p>
+                                    </div>
+                                    <div style="margin-top: 20px;">
+                                        <p align="center"><pre>{{content | uppercase}}</pre></p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <p align="center">UNUM</p>
+                                    </div>
                                 </div>
-                                <div class="card-title">
-                                    <p align="center">{{title | uppercase}}</p>
-                                </div>
-                                <div style="margin-top: 20px;">
-                                    <p align="center"><pre>{{content | uppercase}}</pre></p>
-                                </div>
-                                <div class="card-footer">
-                                    <p align="center">UNUM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-sm-12 col-xs-12">
+                        <div align="center" class="outter-heading standard-background">Card Back</div>
+                        <div id="cardDiv">
+                            <div id="card" class="card-shadow">
+                                <div class="card-content">
+                                    <div class="card-title">
+                                        <p align="center">GO ASK THE SERVICE DESK!</p>
+                                    </div>
+                                    <div style="margin-top: 40px;">
+                                        <img src="servicedesk.png" width="90%" height="90%">
+                                    </div>
+                                    <div style="margin-top: 30px;">
+                                        <img src="unumlogo.png" width="90%" height="90%">
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5 col-sm-12 col-xs-12">
-                    <div align="center" class="outter-heading standard-background">Card Back</div>
-                    <div id="cardDiv">
-                        <div id="card" class="card-shadow">
-                            <div class="card-content">
-                                <div class="card-title">
-                                    <p align="center">GO ASK THE SERVICE DESK!</p>
-                                </div>
-                                <div style="margin-top: 40px;">
-                                    <img src="servicedesk.png" width="90%" height="90%">
-                                </div>
-                                <div style="margin-top: 30px;">
-                                    <img src="unumlogo.png" width="90%" height="90%">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-md-5 col-sm-12 col-xs-12" style="display: none">
+                    <div id="canvas"></div>
                 </div>
             </div>
-            <div class="col-md-5 col-sm-12 col-xs-12" style="display: none">
-                <div id="canvas"></div>
-            </div>
         </div>
-    </div>
-</body>
-
+    </body>
 </html>
 <script src="angular.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
